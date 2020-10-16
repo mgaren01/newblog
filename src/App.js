@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Header from './components/header'
 import Jumbo from './components/jumbo';
 import Body from './components/mainbody';
-import Blog from './components/blog'
+import Blog from './components/blog';
+import Links from './components/links';
+import Aboutme from './components/aboutme';
 
 class App extends Component {
   constructor() {
@@ -29,6 +31,8 @@ setPage(newPageNum) {
         <Jumbo />
         <Body />
         <Blog />
+        <Aboutme />
+        <Links />
       </div>
     );
   }
